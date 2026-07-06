@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Recursive Barnes-Wall tree</text>
+<rect x="80" y="128" width="130" height="72" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="145" y="168">small pieces</text>
+<rect x="250" y="128" width="130" height="72" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="315" y="168">combine</text>
+<rect x="420" y="128" width="130" height="72" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="485" y="168">larger lattice</text>
+<text class="small" x="64" y="334">Schematic figure for the recursive representation viewpoint.</text>
+</svg>

@@ -1,0 +1,9 @@
+# Preface {.unnumbered}
+
+This book develops lattice vector quantization for neural networks from first principles. It is written for machine-learning researchers, systems researchers, graduate students, and engineers who want to understand both the mathematics and the implementation path to efficient inference.
+
+The central principle is simple: introduce mathematics only when it solves a concrete engineering problem. Modular arithmetic, cosets, lattices, quotient groups, Reed-Muller codes, and Barnes-Wall lattices appear because quantization forces them to appear.
+
+The running example uses dimension `d = 4`, the `D4` lattice, hierarchy radix `q = 2`, hierarchy depth `M = 4`, an eight-value weight vector, and an eight-value activation vector. The same example is revisited throughout the book until it becomes a complete Hierarchical Nested Lattice Quantization (HNLQ) and lookup-table inference pipeline.
+
+Standard lattice background will be grounded in references such as @conway_sloane_1999 and connected to quantization and coding viewpoints such as @forney_1988.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Beta sweep on the toy layer</text>
+<line x1="90" y1="286" x2="670" y2="286" stroke="#17202a" />
+<line x1="90" y1="86" x2="90" y2="286" stroke="#17202a" />
+<rect x="118" y="276.5" width="42" height="9.5" fill="#2f6f9f" opacity="0.85" />
+<rect x="164" y="102.7" width="42" height="183.3" fill="#d9822b" opacity="0.85" />
+<text class="small" text-anchor="middle" x="162" y="310">0.50</text>
+<rect x="248" y="283.0" width="42" height="3.0" fill="#2f6f9f" opacity="0.85" />
+<rect x="294" y="259.8" width="42" height="26.2" fill="#d9822b" opacity="0.85" />
+<text class="small" text-anchor="middle" x="292" y="310">1.00</text>
+<rect x="378" y="285.1" width="42" height="0.9" fill="#2f6f9f" opacity="0.85" />
+<rect x="424" y="278.0" width="42" height="8.0" fill="#d9822b" opacity="0.85" />
+<text class="small" text-anchor="middle" x="422" y="310">2.00</text>
+<rect x="508" y="285.0" width="42" height="1.0" fill="#2f6f9f" opacity="0.85" />
+<rect x="554" y="275.2" width="42" height="10.8" fill="#d9822b" opacity="0.85" />
+<text class="small" text-anchor="middle" x="552" y="310">4.00</text>
+<text class="small" x="470" y="86" fill="{BLUE}">blue: weight MSE</text>
+<text class="small" x="470" y="106">orange: output MSE</text>
+</svg>

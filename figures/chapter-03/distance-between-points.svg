@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Distance between two points</text>
+<line class="grid" x1="148.0" y1="54" x2="148.0" y2="312" />
+<line class="grid" x1="148" y1="417.0" x2="612" y2="417.0" />
+<line class="grid" x1="206.0" y1="54" x2="206.0" y2="312" />
+<line class="grid" x1="148" y1="359.0" x2="612" y2="359.0" />
+<line class="grid" x1="264.0" y1="54" x2="264.0" y2="312" />
+<line class="grid" x1="148" y1="301.0" x2="612" y2="301.0" />
+<line class="grid" x1="322.0" y1="54" x2="322.0" y2="312" />
+<line class="grid" x1="148" y1="243.0" x2="612" y2="243.0" />
+<line class="grid" x1="380.0" y1="54" x2="380.0" y2="312" />
+<line class="grid" x1="148" y1="185.0" x2="612" y2="185.0" />
+<line class="grid" x1="438.0" y1="54" x2="438.0" y2="312" />
+<line class="grid" x1="148" y1="127.0" x2="612" y2="127.0" />
+<line class="grid" x1="496.0" y1="54" x2="496.0" y2="312" />
+<line class="grid" x1="148" y1="69.0" x2="612" y2="69.0" />
+<line class="grid" x1="554.0" y1="54" x2="554.0" y2="312" />
+<line class="grid" x1="148" y1="11.0" x2="612" y2="11.0" />
+<line class="grid" x1="612.0" y1="54" x2="612.0" y2="312" />
+<line class="grid" x1="148" y1="-47.0" x2="612" y2="-47.0" />
+<line class="axis" x1="148" y1="185" x2="612" y2="185" />
+<line class="axis" x1="380" y1="54" x2="380" y2="312" />
+<line x1="422.3" y1="291.7" x2="438.0" y2="301.0" stroke="#8e44ad" stroke-width="4" />
+<circle cx="422.3" cy="291.7" r="8" fill="#2f6f9f" />
+<circle cx="438.0" cy="301.0" r="8" fill="#d9822b" />
+<text class="label" x="434.3" y="283.7">floating point</text>
+<text class="label" x="450.0" y="323.0">rounded</text>
+<text class="small" x="48" y="334">The line segment is the Euclidean error in this two-coordinate slice.</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Nearest lattice point in an even-parity slice</text>
+<line class="grid" x1="188.0" y1="52" x2="188.0" y2="314" />
+<line class="grid" x1="150" y1="377.0" x2="610" y2="377.0" />
+<line class="grid" x1="236.0" y1="52" x2="236.0" y2="314" />
+<line class="grid" x1="150" y1="329.0" x2="610" y2="329.0" />
+<line class="grid" x1="284.0" y1="52" x2="284.0" y2="314" />
+<line class="grid" x1="150" y1="281.0" x2="610" y2="281.0" />
+<line class="grid" x1="332.0" y1="52" x2="332.0" y2="314" />
+<line class="grid" x1="150" y1="233.0" x2="610" y2="233.0" />
+<line class="grid" x1="380.0" y1="52" x2="380.0" y2="314" />
+<line class="grid" x1="150" y1="185.0" x2="610" y2="185.0" />
+<line class="grid" x1="428.0" y1="52" x2="428.0" y2="314" />
+<line class="grid" x1="150" y1="137.0" x2="610" y2="137.0" />
+<line class="grid" x1="476.0" y1="52" x2="476.0" y2="314" />
+<line class="grid" x1="150" y1="89.0" x2="610" y2="89.0" />
+<line class="grid" x1="524.0" y1="52" x2="524.0" y2="314" />
+<line class="grid" x1="150" y1="41.0" x2="610" y2="41.0" />
+<line class="grid" x1="572.0" y1="52" x2="572.0" y2="314" />
+<line class="grid" x1="150" y1="-7.0" x2="610" y2="-7.0" />
+<line class="axis" x1="150" y1="185" x2="610" y2="185" />
+<line class="axis" x1="380" y1="52" x2="380" y2="314" />
+<circle cx="188.0" cy="329.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="188.0" cy="281.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="188.0" cy="233.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="188.0" cy="185.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="188.0" cy="137.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="188.0" cy="89.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="188.0" cy="41.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="236.0" cy="329.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="236.0" cy="281.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="236.0" cy="233.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="236.0" cy="185.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="236.0" cy="137.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="236.0" cy="89.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="236.0" cy="41.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="284.0" cy="329.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="284.0" cy="281.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="284.0" cy="233.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="284.0" cy="185.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="284.0" cy="137.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="284.0" cy="89.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="284.0" cy="41.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="332.0" cy="329.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="332.0" cy="281.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="332.0" cy="233.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="332.0" cy="185.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="332.0" cy="137.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="332.0" cy="89.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="332.0" cy="41.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="380.0" cy="329.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="380.0" cy="281.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="380.0" cy="233.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="380.0" cy="185.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="380.0" cy="137.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="380.0" cy="89.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="380.0" cy="41.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="428.0" cy="329.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="428.0" cy="281.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="428.0" cy="233.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="428.0" cy="185.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="428.0" cy="137.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="428.0" cy="89.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="428.0" cy="41.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="476.0" cy="329.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="476.0" cy="281.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="476.0" cy="233.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="476.0" cy="185.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="476.0" cy="137.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="476.0" cy="89.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="476.0" cy="41.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="524.0" cy="329.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="524.0" cy="281.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="524.0" cy="233.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="524.0" cy="185.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="524.0" cy="137.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="524.0" cy="89.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="524.0" cy="41.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="572.0" cy="329.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="572.0" cy="281.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="572.0" cy="233.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="572.0" cy="185.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="572.0" cy="137.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<circle cx="572.0" cy="89.0" r="7" fill="#2e8b57" opacity="1" />
+<circle cx="572.0" cy="41.0" r="4" fill="#7f8c8d" opacity="0.35" />
+<line x1="415.0" y1="273.3" x2="428.0" y2="233.0" stroke="#8e44ad" stroke-width="4" />
+<circle cx="415.0" cy="273.3" r="9" fill="#2f6f9f" />
+<text class="label" x="427.0" y="293.3">target slice</text>
+<text class="label" x="440.0" y="223.0">nearest even point</text>
+<text class="small" x="48" y="334">This visible slice shows the nearest-point idea; Chapter 7 computes in four dimensions.</text>
+</svg>

@@ -1,0 +1,37 @@
+# Notation
+
+This table is the canonical notation register for the book. New symbols should be added here before they are used in chapters.
+
+| Symbol | Meaning |
+|---|---|
+| `x` | Activation vector |
+| `w` | Floating-point weight vector |
+| `\hat{w}` | Quantized weight vector |
+| `v` | Generic vector being quantized (a weight block or a residual) |
+| `u` | Coordinate-wise rounded integer vector |
+| `C` | Finite codebook (classical vector quantization) |
+| `c_b` | Codeword with index `b` in a finite codebook |
+| `g_i` | Basis vector used as a generator matrix column |
+| `z` | Integer coefficient vector used to generate a lattice point |
+| `G` | Generator matrix |
+| `L` | Lattice |
+| `V` | Voronoi cell of `L` around the origin |
+| `Q_L(v)` | Nearest lattice point in `L` to `v` |
+| `\beta` | Scaling factor applied before quantization |
+| `A_q` | Finite Hierarchical Nested Lattice Quantization (HNLQ) codebook, `A_q = L \cap qV` |
+| `b` | Codebook index |
+| `b_m` | Digit index at hierarchy level `m` (a coset index) |
+| `z_m` | Coefficient quotient at hierarchy level `m` during digit extraction |
+| `\tilde{c}_b` | Digit representative `G \cdot bits(b)`, linear in the index bits |
+| `M` | Hierarchy depth |
+| `q` | Hierarchy radix |
+| `d` | Vector dimension |
+| `K` | Number of codewords in a classical codebook |
+| `T_x(b)` | One-sided lookup-table entry for activation block `x` and codebook index `b` |
+
+Conventions:
+
+- `Q_L(\cdot)` accepts any vector; in this book it is applied to weight blocks and residuals, never to activations, which remain in floating point.
+- `L` is reserved for the lattice; the one-sided lookup table is written `T_x(b)` to avoid overloading `L`.
+- `n` appears only as the dimension subscript of the lattice family `Dn` and in the complexity of its decoder; everywhere else the vector dimension is `d`.
+- HNLQ expands to Hierarchical Nested Lattice Quantization.

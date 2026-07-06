@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Metric choice changes the selected beta</text>
+<rect x="150" y="263.0" width="150" height="17.0" fill="#2f6f9f" opacity="0.82" />
+<text class="label" text-anchor="middle" x="225" y="310">best weight MSE</text>
+<text class="small" text-anchor="middle" x="225" y="251.0">0.0300</text>
+<rect x="420" y="132.1" width="150" height="147.9" fill="#d9822b" opacity="0.82" />
+<text class="label" text-anchor="middle" x="495" y="310">best output MSE</text>
+<text class="small" text-anchor="middle" x="495" y="120.1">0.2610</text>
+<text class="small" x="64" y="334">Weight error and output error answer different engineering questions.</text>
+</svg>

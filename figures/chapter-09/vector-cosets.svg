@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Z^2 / 2Z^2 has four parity classes</text>
+<line class="grid" x1="228" y1="64" x2="228" y2="310" />
+<line class="grid" x1="216" y1="342" x2="544" y2="342" />
+<line class="grid" x1="266" y1="64" x2="266" y2="310" />
+<line class="grid" x1="216" y1="304" x2="544" y2="304" />
+<line class="grid" x1="304" y1="64" x2="304" y2="310" />
+<line class="grid" x1="216" y1="266" x2="544" y2="266" />
+<line class="grid" x1="342" y1="64" x2="342" y2="310" />
+<line class="grid" x1="216" y1="228" x2="544" y2="228" />
+<line class="grid" x1="380" y1="64" x2="380" y2="310" />
+<line class="grid" x1="216" y1="190" x2="544" y2="190" />
+<line class="grid" x1="418" y1="64" x2="418" y2="310" />
+<line class="grid" x1="216" y1="152" x2="544" y2="152" />
+<line class="grid" x1="456" y1="64" x2="456" y2="310" />
+<line class="grid" x1="216" y1="114" x2="544" y2="114" />
+<line class="grid" x1="494" y1="64" x2="494" y2="310" />
+<line class="grid" x1="216" y1="76" x2="544" y2="76" />
+<line class="grid" x1="532" y1="64" x2="532" y2="310" />
+<line class="grid" x1="216" y1="38" x2="544" y2="38" />
+<circle cx="228" cy="304" r="7" fill="#d9822b" />
+<circle cx="228" cy="266" r="7" fill="#2f6f9f" />
+<circle cx="228" cy="228" r="7" fill="#d9822b" />
+<circle cx="228" cy="190" r="7" fill="#2f6f9f" />
+<circle cx="228" cy="152" r="7" fill="#d9822b" />
+<circle cx="228" cy="114" r="7" fill="#2f6f9f" />
+<circle cx="228" cy="76" r="7" fill="#d9822b" />
+<circle cx="266" cy="304" r="7" fill="#8e44ad" />
+<circle cx="266" cy="266" r="7" fill="#2e8b57" />
+<circle cx="266" cy="228" r="7" fill="#8e44ad" />
+<circle cx="266" cy="190" r="7" fill="#2e8b57" />
+<circle cx="266" cy="152" r="7" fill="#8e44ad" />
+<circle cx="266" cy="114" r="7" fill="#2e8b57" />
+<circle cx="266" cy="76" r="7" fill="#8e44ad" />
+<circle cx="304" cy="304" r="7" fill="#d9822b" />
+<circle cx="304" cy="266" r="7" fill="#2f6f9f" />
+<circle cx="304" cy="228" r="7" fill="#d9822b" />
+<circle cx="304" cy="190" r="7" fill="#2f6f9f" />
+<circle cx="304" cy="152" r="7" fill="#d9822b" />
+<circle cx="304" cy="114" r="7" fill="#2f6f9f" />
+<circle cx="304" cy="76" r="7" fill="#d9822b" />
+<circle cx="342" cy="304" r="7" fill="#8e44ad" />
+<circle cx="342" cy="266" r="7" fill="#2e8b57" />
+<circle cx="342" cy="228" r="7" fill="#8e44ad" />
+<circle cx="342" cy="190" r="7" fill="#2e8b57" />
+<circle cx="342" cy="152" r="7" fill="#8e44ad" />
+<circle cx="342" cy="114" r="7" fill="#2e8b57" />
+<circle cx="342" cy="76" r="7" fill="#8e44ad" />
+<circle cx="380" cy="304" r="7" fill="#d9822b" />
+<circle cx="380" cy="266" r="7" fill="#2f6f9f" />
+<circle cx="380" cy="228" r="7" fill="#d9822b" />
+<circle cx="380" cy="190" r="7" fill="#2f6f9f" />
+<circle cx="380" cy="152" r="7" fill="#d9822b" />
+<circle cx="380" cy="114" r="7" fill="#2f6f9f" />
+<circle cx="380" cy="76" r="7" fill="#d9822b" />
+<circle cx="418" cy="304" r="7" fill="#8e44ad" />
+<circle cx="418" cy="266" r="7" fill="#2e8b57" />
+<circle cx="418" cy="228" r="7" fill="#8e44ad" />
+<circle cx="418" cy="190" r="7" fill="#2e8b57" />
+<circle cx="418" cy="152" r="7" fill="#8e44ad" />
+<circle cx="418" cy="114" r="7" fill="#2e8b57" />
+<circle cx="418" cy="76" r="7" fill="#8e44ad" />
+<circle cx="456" cy="304" r="7" fill="#d9822b" />
+<circle cx="456" cy="266" r="7" fill="#2f6f9f" />
+<circle cx="456" cy="228" r="7" fill="#d9822b" />
+<circle cx="456" cy="190" r="7" fill="#2f6f9f" />
+<circle cx="456" cy="152" r="7" fill="#d9822b" />
+<circle cx="456" cy="114" r="7" fill="#2f6f9f" />
+<circle cx="456" cy="76" r="7" fill="#d9822b" />
+<circle cx="494" cy="304" r="7" fill="#8e44ad" />
+<circle cx="494" cy="266" r="7" fill="#2e8b57" />
+<circle cx="494" cy="228" r="7" fill="#8e44ad" />
+<circle cx="494" cy="190" r="7" fill="#2e8b57" />
+<circle cx="494" cy="152" r="7" fill="#8e44ad" />
+<circle cx="494" cy="114" r="7" fill="#2e8b57" />
+<circle cx="494" cy="76" r="7" fill="#8e44ad" />
+<circle cx="532" cy="304" r="7" fill="#d9822b" />
+<circle cx="532" cy="266" r="7" fill="#2f6f9f" />
+<circle cx="532" cy="228" r="7" fill="#d9822b" />
+<circle cx="532" cy="190" r="7" fill="#2f6f9f" />
+<circle cx="532" cy="152" r="7" fill="#d9822b" />
+<circle cx="532" cy="114" r="7" fill="#2f6f9f" />
+<circle cx="532" cy="76" r="7" fill="#d9822b" />
+<text class="small" x="64" y="334">Two parity bits index the four repeating vector classes.</text>
+</svg>

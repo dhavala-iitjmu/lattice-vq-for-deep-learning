@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Memory path comparison</text>
+<rect x="70" y="96" width="260" height="132" rx="7" fill="#d9822b" opacity="0.12" stroke="#d9822b" stroke-width="2" />
+<text class="label" text-anchor="middle" x="200" y="126">reconstruct-then-dot</text>
+<text class="small" text-anchor="middle" x="200" y="158">indices -> weights -> dot</text>
+<text class="small" text-anchor="middle" x="200" y="184">moves reconstructed values</text>
+<rect x="430" y="96" width="260" height="132" rx="7" fill="#2e8b57" opacity="0.12" stroke="#2e8b57" stroke-width="2" />
+<text class="label" text-anchor="middle" x="560" y="126">one-sided LUT</text>
+<text class="small" text-anchor="middle" x="560" y="158">indices -> table entries -> sum</text>
+<text class="small" text-anchor="middle" x="560" y="184">keeps weights compressed</text>
+<text class="small" x="64" y="334">The LUT path helps when the table is reused enough to amortize construction.</text>
+</svg>

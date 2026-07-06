@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Keep lookup tables hot, stream indices</text>
+<rect x="78" y="82" width="604" height="58" rx="7" fill="#d9822b" opacity="0.12" stroke="#d9822b" />
+<text class="label" text-anchor="middle" x="380" y="117">main memory: compressed HNLQ index stream</text>
+<rect x="150" y="186" width="460" height="58" rx="7" fill="#2e8b57" opacity="0.14" stroke="#2e8b57" />
+<text class="label" text-anchor="middle" x="380" y="221">cache / shared memory: T_x tables</text>
+<line x1="380" y1="140" x2="380" y2="186" stroke="#17202a" stroke-width="3" marker-end="url(#arrow)" />
+<text class="small" x="64" y="334">Performance depends on whether table reuse beats lookup and indexing overhead.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">End-to-end HNLQ matmul pipeline</text>
+<rect x="54" y="138" width="112" height="54" rx="7" fill="#f8f9f9" stroke="#d6dbdf" stroke-width="2" />
+<text class="label" text-anchor="middle" x="110" y="170">tile x</text>
+<line x1="166" y1="165" x2="194" y2="165" stroke="#17202a" stroke-width="3" marker-end="url(#arrow)" />
+<rect x="194" y="138" width="112" height="54" rx="7" fill="#f8f9f9" stroke="#d6dbdf" stroke-width="2" />
+<text class="label" text-anchor="middle" x="250" y="170">build LUTs</text>
+<line x1="306" y1="165" x2="334" y2="165" stroke="#17202a" stroke-width="3" marker-end="url(#arrow)" />
+<rect x="334" y="138" width="112" height="54" rx="7" fill="#f8f9f9" stroke="#d6dbdf" stroke-width="2" />
+<text class="label" text-anchor="middle" x="390" y="170">stream indices</text>
+<line x1="446" y1="165" x2="474" y2="165" stroke="#17202a" stroke-width="3" marker-end="url(#arrow)" />
+<rect x="474" y="138" width="112" height="54" rx="7" fill="#f8f9f9" stroke="#d6dbdf" stroke-width="2" />
+<text class="label" text-anchor="middle" x="530" y="170">lookup accumulate</text>
+<line x1="586" y1="165" x2="614" y2="165" stroke="#17202a" stroke-width="3" marker-end="url(#arrow)" />
+<rect x="614" y="138" width="112" height="54" rx="7" fill="#f8f9f9" stroke="#d6dbdf" stroke-width="2" />
+<text class="label" text-anchor="middle" x="670" y="170">write y</text>
+<text class="small" x="64" y="334">The tile loop is where one-sided LUTs become a matrix multiplication kernel.</text>
+</svg>

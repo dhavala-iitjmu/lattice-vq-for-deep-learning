@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">D4 as eight shifted copies of 2Z^4</text>
+<rect x="76" y="96" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="142" y="133">0000</text>
+<text class="small" text-anchor="middle" x="142" y="174">0000 + 2Z^4</text>
+<rect x="241" y="96" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="307" y="133">1100</text>
+<text class="small" text-anchor="middle" x="307" y="174">1100 + 2Z^4</text>
+<rect x="406" y="96" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="472" y="133">1010</text>
+<text class="small" text-anchor="middle" x="472" y="174">1010 + 2Z^4</text>
+<rect x="571" y="96" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="637" y="133">1001</text>
+<text class="small" text-anchor="middle" x="637" y="174">1001 + 2Z^4</text>
+<rect x="76" y="184" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="142" y="221">0110</text>
+<text class="small" text-anchor="middle" x="142" y="262">0110 + 2Z^4</text>
+<rect x="241" y="184" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="307" y="221">0101</text>
+<text class="small" text-anchor="middle" x="307" y="262">0101 + 2Z^4</text>
+<rect x="406" y="184" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="472" y="221">0011</text>
+<text class="small" text-anchor="middle" x="472" y="262">0011 + 2Z^4</text>
+<rect x="571" y="184" width="132" height="58" rx="6" fill="#2f6f9f" opacity="0.13" stroke="#2f6f9f" stroke-width="2" />
+<text class="title" text-anchor="middle" x="637" y="221">1111</text>
+<text class="small" text-anchor="middle" x="637" y="262">1111 + 2Z^4</text>
+<text class="small" x="78" y="304">Each even signature is one coset of the all-even grid 2Z^4 inside D4.</text>
+</svg>

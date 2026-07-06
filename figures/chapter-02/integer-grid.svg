@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Integer grid Z^2</text>
+<line class="grid" x1="236" y1="54" x2="236" y2="306" />
+<line class="grid" x1="254" y1="324" x2="506" y2="324" />
+<line class="grid" x1="272" y1="54" x2="272" y2="306" />
+<line class="grid" x1="254" y1="288" x2="506" y2="288" />
+<line class="grid" x1="308" y1="54" x2="308" y2="306" />
+<line class="grid" x1="254" y1="252" x2="506" y2="252" />
+<line class="grid" x1="344" y1="54" x2="344" y2="306" />
+<line class="grid" x1="254" y1="216" x2="506" y2="216" />
+<line class="grid" x1="380" y1="54" x2="380" y2="306" />
+<line class="grid" x1="254" y1="180" x2="506" y2="180" />
+<line class="grid" x1="416" y1="54" x2="416" y2="306" />
+<line class="grid" x1="254" y1="144" x2="506" y2="144" />
+<line class="grid" x1="452" y1="54" x2="452" y2="306" />
+<line class="grid" x1="254" y1="108" x2="506" y2="108" />
+<line class="grid" x1="488" y1="54" x2="488" y2="306" />
+<line class="grid" x1="254" y1="72" x2="506" y2="72" />
+<line class="grid" x1="524" y1="54" x2="524" y2="306" />
+<line class="grid" x1="254" y1="36" x2="506" y2="36" />
+<line class="axis" x1="254" y1="180" x2="506" y2="180" />
+<line class="axis" x1="380" y1="54" x2="380" y2="306" />
+<circle cx="272" cy="288" r="5" fill="#17202a" />
+<circle cx="272" cy="252" r="5" fill="#17202a" />
+<circle cx="272" cy="216" r="5" fill="#17202a" />
+<circle cx="272" cy="180" r="5" fill="#17202a" />
+<circle cx="272" cy="144" r="5" fill="#17202a" />
+<circle cx="272" cy="108" r="5" fill="#17202a" />
+<circle cx="272" cy="72" r="5" fill="#17202a" />
+<circle cx="308" cy="288" r="5" fill="#17202a" />
+<circle cx="308" cy="252" r="5" fill="#17202a" />
+<circle cx="308" cy="216" r="5" fill="#17202a" />
+<circle cx="308" cy="180" r="5" fill="#17202a" />
+<circle cx="308" cy="144" r="5" fill="#17202a" />
+<circle cx="308" cy="108" r="5" fill="#17202a" />
+<circle cx="308" cy="72" r="5" fill="#17202a" />
+<circle cx="344" cy="288" r="5" fill="#17202a" />
+<circle cx="344" cy="252" r="5" fill="#17202a" />
+<circle cx="344" cy="216" r="5" fill="#17202a" />
+<circle cx="344" cy="180" r="5" fill="#17202a" />
+<circle cx="344" cy="144" r="5" fill="#17202a" />
+<circle cx="344" cy="108" r="5" fill="#17202a" />
+<circle cx="344" cy="72" r="5" fill="#17202a" />
+<circle cx="380" cy="288" r="5" fill="#17202a" />
+<circle cx="380" cy="252" r="5" fill="#17202a" />
+<circle cx="380" cy="216" r="5" fill="#17202a" />
+<circle cx="380" cy="180" r="5" fill="#17202a" />
+<circle cx="380" cy="144" r="5" fill="#17202a" />
+<circle cx="380" cy="108" r="5" fill="#17202a" />
+<circle cx="380" cy="72" r="5" fill="#17202a" />
+<circle cx="416" cy="288" r="5" fill="#17202a" />
+<circle cx="416" cy="252" r="5" fill="#17202a" />
+<circle cx="416" cy="216" r="5" fill="#17202a" />
+<circle cx="416" cy="180" r="5" fill="#17202a" />
+<circle cx="416" cy="144" r="5" fill="#17202a" />
+<circle cx="416" cy="108" r="5" fill="#17202a" />
+<circle cx="416" cy="72" r="5" fill="#17202a" />
+<circle cx="452" cy="288" r="5" fill="#17202a" />
+<circle cx="452" cy="252" r="5" fill="#17202a" />
+<circle cx="452" cy="216" r="5" fill="#17202a" />
+<circle cx="452" cy="180" r="5" fill="#17202a" />
+<circle cx="452" cy="144" r="5" fill="#17202a" />
+<circle cx="452" cy="108" r="5" fill="#17202a" />
+<circle cx="452" cy="72" r="5" fill="#17202a" />
+<circle cx="488" cy="288" r="5" fill="#17202a" />
+<circle cx="488" cy="252" r="5" fill="#17202a" />
+<circle cx="488" cy="216" r="5" fill="#17202a" />
+<circle cx="488" cy="180" r="5" fill="#17202a" />
+<circle cx="488" cy="144" r="5" fill="#17202a" />
+<circle cx="488" cy="108" r="5" fill="#17202a" />
+<circle cx="488" cy="72" r="5" fill="#17202a" />
+<text class="small" x="520" y="184">Each dot is one integer vector.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Build T_x(b) from one activation block</text>
+<rect x="70" y="126" width="126" height="60" rx="7" fill="#f8f9f9" stroke="#2f6f9f" stroke-width="2" />
+<text class="label" text-anchor="middle" x="133.0" y="161.0">activation x</text>
+<rect x="258" y="92" width="128" height="48" rx="7" fill="#f8f9f9" stroke="#2e8b57" stroke-width="2" />
+<text class="label" text-anchor="middle" x="322.0" y="121.0">codeword c0</text>
+<rect x="258" y="154" width="128" height="48" rx="7" fill="#f8f9f9" stroke="#2e8b57" stroke-width="2" />
+<text class="label" text-anchor="middle" x="322.0" y="183.0">codeword c1</text>
+<rect x="258" y="216" width="128" height="48" rx="7" fill="#f8f9f9" stroke="#2e8b57" stroke-width="2" />
+<text class="label" text-anchor="middle" x="322.0" y="245.0">... c15</text>
+<rect x="486" y="140" width="150" height="72" rx="7" fill="#f8f9f9" stroke="#d9822b" stroke-width="2" />
+<text class="label" text-anchor="middle" x="561.0" y="181.0">T_x table</text>
+<line x1="196" y1="156" x2="258" y2="116" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="386" y1="116" x2="486" y2="176" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="196" y1="156" x2="258" y2="178" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="386" y1="178" x2="486" y2="176" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="196" y1="156" x2="258" y2="240" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="386" y1="240" x2="486" y2="176" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<text class="small" x="64" y="334">Each table entry is one activation-codeword dot product.</text>
+</svg>

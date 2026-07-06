@@ -1,0 +1,67 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Lattice Vector Quantization for Neural Networks"
+  subtitle: "From First Principles to Efficient Inference"
+  author: "Soma Dhavala"
+  date: today
+  version: "0.1"
+  license: "CC BY-NC 4.0"
+  repo-url: https://github.com/dhavala-iitjmu/lattice-vq-for-deep-learning
+  repo-actions: [edit, issue]
+  reader-mode: true
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - part: "Part I - Foundations"
+      chapters:
+        - chapters/01-why-quantization.qmd
+        - chapters/02-numbers-modulo-cosets.qmd
+        - chapters/03-vectors-euclidean-geometry.qmd
+        - chapters/04-classical-vector-quantization.qmd
+        - chapters/05-lattices-from-first-principles.qmd
+        - chapters/06-the-d4-lattice.qmd
+        - chapters/07-nearest-lattice-point-algorithms.qmd
+    - part: "Part II - Lattice Vector Quantization"
+      chapters:
+        - chapters/08-lattice-vector-quantization.qmd
+        - chapters/09-quotient-groups-finite-codebooks.qmd
+        - chapters/10-hierarchical-lattice-quantization.qmd
+        - chapters/11-one-sided-lookup-tables.qmd
+        - chapters/12-matrix-multiplication-with-hnlq.qmd
+        - chapters/13-hnlq-in-practice.qmd
+    - part: "Part III - Structured Lattices and Binary Representations"
+      chapters:
+        - chapters/14-beyond-d4-higher-dimensional-lattices.qmd
+        - chapters/15-barnes-wall-lattices.qmd
+        - chapters/16-reed-muller-codes.qmd
+        - chapters/17-bit-plane-representations.qmd
+        - chapters/18-toward-binary-domain-computation.qmd
+    - references.qmd
+  appendices:
+    - notation.qmd
+    - appendices/solutions.qmd
+
+bibliography: references.bib
+nocite: |
+  @*
+
+crossref:
+  chapters: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    number-sections: true
+    number-depth: 3
+    code-copy: true
+    link-external-newwindow: true
+    css: styles.css
+
+execute:
+  freeze: auto

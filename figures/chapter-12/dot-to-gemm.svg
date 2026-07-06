@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">From one dot product to many rows</text>
+<rect x="74" y="122" width="118" height="76" rx="7" fill="#2f6f9f" opacity="0.14" stroke="#2f6f9f" />
+<text class="label" text-anchor="middle" x="133" y="164">activation x</text>
+<rect x="306" y="74" width="202" height="34" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="small" text-anchor="middle" x="407" y="96">HNLQ row 0</text>
+<line x1="192" y1="160" x2="306" y2="91" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="508" y1="91" x2="612" y2="91" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<text class="small" x="626" y="95">y0</text>
+<rect x="306" y="122" width="202" height="34" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="small" text-anchor="middle" x="407" y="144">HNLQ row 1</text>
+<line x1="192" y1="160" x2="306" y2="139" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="508" y1="139" x2="612" y2="139" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<text class="small" x="626" y="143">y1</text>
+<rect x="306" y="170" width="202" height="34" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="small" text-anchor="middle" x="407" y="192">HNLQ row 2</text>
+<line x1="192" y1="160" x2="306" y2="187" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="508" y1="187" x2="612" y2="187" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<text class="small" x="626" y="191">y2</text>
+<rect x="306" y="218" width="202" height="34" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="small" text-anchor="middle" x="407" y="240">HNLQ row 3</text>
+<line x1="192" y1="160" x2="306" y2="235" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="508" y1="235" x2="612" y2="235" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<text class="small" x="626" y="239">y3</text>
+<rect x="306" y="266" width="202" height="34" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="small" text-anchor="middle" x="407" y="288">HNLQ row 4</text>
+<line x1="192" y1="160" x2="306" y2="283" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="508" y1="283" x2="612" y2="283" stroke="#17202a" stroke-width="2" marker-end="url(#arrow)" />
+<text class="small" x="626" y="287">y4</text>
+<text class="small" x="64" y="334">The same activation tables serve many compressed rows.</text>
+</svg>

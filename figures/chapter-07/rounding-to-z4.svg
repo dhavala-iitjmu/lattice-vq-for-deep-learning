@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Step 1: coordinate-wise rounding to Z^4</text>
+<text class="label" text-anchor="middle" x="100" y="84">coord</text>
+<text class="label" text-anchor="middle" x="235" y="84">target</text>
+<text class="label" text-anchor="middle" x="380" y="84">rounded</text>
+<text class="label" text-anchor="middle" x="525" y="84">error</text>
+<rect x="64" y="87" width="540" height="36" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="100" y="112">1</text>
+<text class="label" text-anchor="middle" x="235" y="112">0.73</text>
+<text class="label" text-anchor="middle" x="380" y="112">1</text>
+<text class="label" text-anchor="middle" x="525" y="112">-0.27</text>
+<rect x="64" y="133" width="540" height="36" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="100" y="158">2</text>
+<text class="label" text-anchor="middle" x="235" y="158">-1.84</text>
+<text class="label" text-anchor="middle" x="380" y="158">-2</text>
+<text class="label" text-anchor="middle" x="525" y="158">0.16</text>
+<rect x="64" y="179" width="540" height="36" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="100" y="204">3</text>
+<text class="label" text-anchor="middle" x="235" y="204">2.11</text>
+<text class="label" text-anchor="middle" x="380" y="204">2</text>
+<text class="label" text-anchor="middle" x="525" y="204">0.11</text>
+<rect x="64" y="225" width="540" height="36" rx="5" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="100" y="250">4</text>
+<text class="label" text-anchor="middle" x="235" y="250">-0.45</text>
+<text class="label" text-anchor="middle" x="380" y="250">0</text>
+<text class="label" text-anchor="middle" x="525" y="250">-0.45</text>
+<text class="small" x="64" y="322">The rounded vector is (1, -2, 2, 0), whose sum is odd.</text>
+</svg>

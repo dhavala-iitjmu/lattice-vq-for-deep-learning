@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Experimental structured bit-plane kernel</text>
+<rect x="78" y="126" width="130" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="143" y="168">code planes</text>
+<rect x="238" y="126" width="130" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="303" y="168">packed ops</text>
+<rect x="398" y="126" width="130" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="463" y="168">accumulate</text>
+<text class="small" x="64" y="334">The final chapter separates established arithmetic from research hypotheses.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Voronoi region in an even-parity slice</text>
+<line class="grid" x1="188.0" y1="52" x2="188.0" y2="314" />
+<line class="grid" x1="150" y1="377.0" x2="610" y2="377.0" />
+<line class="grid" x1="236.0" y1="52" x2="236.0" y2="314" />
+<line class="grid" x1="150" y1="329.0" x2="610" y2="329.0" />
+<line class="grid" x1="284.0" y1="52" x2="284.0" y2="314" />
+<line class="grid" x1="150" y1="281.0" x2="610" y2="281.0" />
+<line class="grid" x1="332.0" y1="52" x2="332.0" y2="314" />
+<line class="grid" x1="150" y1="233.0" x2="610" y2="233.0" />
+<line class="grid" x1="380.0" y1="52" x2="380.0" y2="314" />
+<line class="grid" x1="150" y1="185.0" x2="610" y2="185.0" />
+<line class="grid" x1="428.0" y1="52" x2="428.0" y2="314" />
+<line class="grid" x1="150" y1="137.0" x2="610" y2="137.0" />
+<line class="grid" x1="476.0" y1="52" x2="476.0" y2="314" />
+<line class="grid" x1="150" y1="89.0" x2="610" y2="89.0" />
+<line class="grid" x1="524.0" y1="52" x2="524.0" y2="314" />
+<line class="grid" x1="150" y1="41.0" x2="610" y2="41.0" />
+<line class="grid" x1="572.0" y1="52" x2="572.0" y2="314" />
+<line class="grid" x1="150" y1="-7.0" x2="610" y2="-7.0" />
+<line class="axis" x1="150" y1="185" x2="610" y2="185" />
+<line class="axis" x1="380" y1="52" x2="380" y2="314" />
+<polygon points="380.0,137.0 428.0,185.0 380.0,233.0 332.0,185.0" fill="#2f6f9f" opacity="0.22" stroke="#2f6f9f" stroke-width="3" />
+<circle cx="380.0" cy="185.0" r="7" fill="#2e8b57" />
+<circle cx="428.0" cy="137.0" r="7" fill="#2e8b57" />
+<circle cx="428.0" cy="233.0" r="7" fill="#2e8b57" />
+<circle cx="332.0" cy="137.0" r="7" fill="#2e8b57" />
+<circle cx="332.0" cy="233.0" r="7" fill="#2e8b57" />
+<circle cx="476.0" cy="185.0" r="7" fill="#2e8b57" />
+<circle cx="284.0" cy="185.0" r="7" fill="#2e8b57" />
+<circle cx="380.0" cy="89.0" r="7" fill="#2e8b57" />
+<circle cx="380.0" cy="281.0" r="7" fill="#2e8b57" />
+<text class="label" x="390.0" y="173.0">origin cell</text>
+<text class="small" x="48" y="334">The four-dimensional D4 Voronoi cell is harder to draw; this slice shows the same nearest-cell idea.</text>
+</svg>

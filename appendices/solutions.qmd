@@ -1,0 +1,75 @@
+# Solutions to Exercises {.unnumbered}
+
+Solutions are organized by chapter. Each chapter's solutions are added when that chapter's exercises are finalized.
+
+## Chapter 1: Why Quantization?
+
+To be written.
+
+## Chapter 2: Numbers, Modular Arithmetic, and Cosets
+
+To be written.
+
+## Chapter 3: Vectors and Euclidean Geometry
+
+To be written.
+
+## Chapter 4: Classical Vector Quantization
+
+To be written.
+
+## Chapter 5: Lattices from First Principles
+
+To be written.
+
+## Chapter 6: The D4 Lattice
+
+To be written.
+
+## Chapter 7: Nearest Lattice Point Algorithms
+
+To be written.
+
+## Chapter 8: Lattice Vector Quantization
+
+To be written.
+
+## Chapter 9: Quotient Groups and Finite Codebooks
+
+To be written.
+
+## Chapter 10: Hierarchical Nested Lattice Quantization
+
+To be written.
+
+## Chapter 11: One-Sided Lookup Tables
+
+To be written.
+
+## Chapter 12: Matrix Multiplication with Hierarchical Nested Lattice Quantization (HNLQ)
+
+To be written.
+
+## Chapter 13: HNLQ in Practice
+
+To be written.
+
+## Chapter 14: Beyond D4
+
+To be written.
+
+## Chapter 15: Barnes-Wall Lattices
+
+To be written.
+
+## Chapter 16: Reed-Muller Codes
+
+To be written.
+
+## Chapter 17: Bit-Plane Representations
+
+To be written.
+
+## Chapter 18: Toward Binary-Domain Computation
+
+To be written.

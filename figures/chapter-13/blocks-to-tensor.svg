@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">From matrix rows to HNLQ blocks</text>
+<rect x="122" y="78" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="180" y="78" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="238" y="78" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="296" y="78" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="354" y="78" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="412" y="78" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="470" y="78" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="528" y="78" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="122" y="120" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="180" y="120" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="238" y="120" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="296" y="120" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="354" y="120" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="412" y="120" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="470" y="120" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="528" y="120" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="122" y="162" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="180" y="162" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="238" y="162" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="296" y="162" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="354" y="162" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="412" y="162" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="470" y="162" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="528" y="162" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="122" y="204" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="180" y="204" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="238" y="204" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="296" y="204" width="54" height="36" fill="#2f6f9f" opacity="0.16" stroke="#d6dbdf" />
+<rect x="354" y="204" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="412" y="204" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="470" y="204" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<rect x="528" y="204" width="54" height="36" fill="#2e8b57" opacity="0.16" stroke="#d6dbdf" />
+<text class="label" x="170" y="286">block 0</text>
+<text class="label" x="410" y="286">block 1</text>
+<text class="small" x="64" y="334">Each row of the 4 x 8 layer contains two D4 blocks.</text>
+</svg>

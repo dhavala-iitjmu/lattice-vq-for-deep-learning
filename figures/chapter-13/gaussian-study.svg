@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Gaussian study: geometry gain vs shaping loss</text>
+<rect x="110" y="120.2" width="96" height="149.8" fill="#2e8b57" opacity="0.85" />
+<text class="small" text-anchor="middle" x="158" y="108.2">0.0067</text>
+<text class="label" text-anchor="middle" x="158" y="294">D4</text>
+<rect x="230" y="101.9" width="96" height="168.1" fill="#d6dbdf" opacity="0.85" />
+<text class="small" text-anchor="middle" x="278" y="89.9">0.0075</text>
+<text class="label" text-anchor="middle" x="278" y="294">scalar</text>
+<text class="small" text-anchor="middle" x="218" y="322">matched density</text>
+<rect x="420" y="110.8" width="96" height="159.2" fill="#d9822b" opacity="0.85" />
+<text class="small" text-anchor="middle" x="468" y="98.8">0.0177</text>
+<text class="label" text-anchor="middle" x="468" y="294">HNLQ</text>
+<rect x="540" y="181.4" width="96" height="88.6" fill="#2e8b57" opacity="0.85" />
+<text class="small" text-anchor="middle" x="588" y="169.4">0.0098</text>
+<text class="label" text-anchor="middle" x="588" y="294">INT4</text>
+<text class="small" text-anchor="middle" x="528" y="322">matched 4 bits/weight</text>
+<text class="small" x="64" y="348">D4 geometry wins at equal density; the box-shaped digit range gives it back at equal rate.</text>
+</svg>

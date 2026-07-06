@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Four-bit two's-complement coordinates</text>
+<rect x="84" y="126" width="124" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="146" y="168">1=0001</text>
+<rect x="239" y="126" width="124" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="301" y="168">0=0000</text>
+<rect x="394" y="126" width="124" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="456" y="168">-2=1110</text>
+<rect x="549" y="126" width="124" height="76" rx="8" fill="#f8f9f9" stroke="#d6dbdf" />
+<text class="label" text-anchor="middle" x="611" y="168">3=0011</text>
+<text class="small" x="64" y="334">Bit-plane schematics use the running four-coordinate D4 point.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .axis { stroke: #5d6d7e; stroke-width: 1; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+    .float { fill: #2f6f9f; }
+    .quant { fill: #d9822b; }
+    .error { fill: #8e44ad; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+  <text class="title" x="64" y="28">Scalar quantization moves each coordinate</text>
+  <line class="axis" x1="64" y1="159.0" x2="736" y2="159.0" />
+  <line class="axis" x1="64" y1="42" x2="64" y2="302" />
+  <line class="grid" x1="64" y1="43.0" x2="736" y2="43.0" />
+  <line class="grid" x1="64" y1="275.0" x2="736" y2="275.0" />
+  <text class="small" x="26" y="47.0">2</text>
+  <text class="small" x="21" y="163.0">0</text>
+  <text class="small" x="20" y="279.0">-2</text>
+
+<rect class="float" x="85.0" y="116.7" width="20.0" height="42.3" rx="3" />
+<rect class="quant" x="107.0" y="101.0" width="20.0" height="58.0" rx="3" />
+<text class="label" text-anchor="middle" x="106.0" y="332">1</text>
+<rect class="float" x="169.0" y="159.0" width="20.0" height="106.7" rx="3" />
+<rect class="quant" x="191.0" y="159.0" width="20.0" height="116.0" rx="3" />
+<text class="label" text-anchor="middle" x="190.0" y="332">2</text>
+<rect class="float" x="253.0" y="36.6" width="20.0" height="122.4" rx="3" />
+<rect class="quant" x="275.0" y="43.0" width="20.0" height="116.0" rx="3" />
+<text class="label" text-anchor="middle" x="274.0" y="332">3</text>
+<rect class="float" x="337.0" y="159.0" width="20.0" height="26.1" rx="3" />
+<rect class="quant" x="359.0" y="159.0" width="20.0" height="0.0" rx="3" />
+<text class="label" text-anchor="middle" x="358.0" y="332">4</text>
+<rect class="float" x="421.0" y="85.3" width="20.0" height="73.7" rx="3" />
+<rect class="quant" x="443.0" y="101.0" width="20.0" height="58.0" rx="3" />
+<text class="label" text-anchor="middle" x="442.0" y="332">5</text>
+<rect class="float" x="505.0" y="154.4" width="20.0" height="4.6" rx="3" />
+<rect class="quant" x="527.0" y="159.0" width="20.0" height="0.0" rx="3" />
+<text class="label" text-anchor="middle" x="526.0" y="332">6</text>
+<rect class="float" x="589.0" y="159.0" width="20.0" height="136.9" rx="3" />
+<rect class="quant" x="611.0" y="159.0" width="20.0" height="116.0" rx="3" />
+<text class="label" text-anchor="middle" x="610.0" y="332">7</text>
+<rect class="float" x="673.0" y="-23.1" width="20.0" height="182.1" rx="3" />
+<rect class="quant" x="695.0" y="-15.0" width="20.0" height="174.0" rx="3" />
+<text class="label" text-anchor="middle" x="694.0" y="332">8</text>
+<rect class="float" x="580" y="24" width="14" height="14" rx="2" />
+<text class="small" x="600" y="36">FP16 weight</text>
+<rect class="quant" x="580" y="46" width="14" height="14" rx="2" />
+<text class="small" x="600" y="58">Rounded weight</text>
+</svg>

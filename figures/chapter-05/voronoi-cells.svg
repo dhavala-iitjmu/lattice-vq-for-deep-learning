@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Voronoi cells around the origin</text>
+<line class="grid" x1="188.0" y1="52" x2="188.0" y2="314" />
+<line class="grid" x1="140" y1="377.0" x2="620" y2="377.0" />
+<line class="grid" x1="236.0" y1="52" x2="236.0" y2="314" />
+<line class="grid" x1="140" y1="329.0" x2="620" y2="329.0" />
+<line class="grid" x1="284.0" y1="52" x2="284.0" y2="314" />
+<line class="grid" x1="140" y1="281.0" x2="620" y2="281.0" />
+<line class="grid" x1="332.0" y1="52" x2="332.0" y2="314" />
+<line class="grid" x1="140" y1="233.0" x2="620" y2="233.0" />
+<line class="grid" x1="380.0" y1="52" x2="380.0" y2="314" />
+<line class="grid" x1="140" y1="185.0" x2="620" y2="185.0" />
+<line class="grid" x1="428.0" y1="52" x2="428.0" y2="314" />
+<line class="grid" x1="140" y1="137.0" x2="620" y2="137.0" />
+<line class="grid" x1="476.0" y1="52" x2="476.0" y2="314" />
+<line class="grid" x1="140" y1="89.0" x2="620" y2="89.0" />
+<line class="grid" x1="524.0" y1="52" x2="524.0" y2="314" />
+<line class="grid" x1="140" y1="41.0" x2="620" y2="41.0" />
+<line class="grid" x1="572.0" y1="52" x2="572.0" y2="314" />
+<line class="grid" x1="140" y1="-7.0" x2="620" y2="-7.0" />
+<line class="axis" x1="140" y1="185" x2="620" y2="185" />
+<line class="axis" x1="380" y1="52" x2="380" y2="314" />
+<polygon points="356.0,209.0 404.0,209.0 404.0,161.0 356.0,161.0" fill="#2f6f9f" opacity="0.4" stroke="#17202a" stroke-width="2" />
+<polygon points="519.3,171.1 495.2,157.2 471.1,171.1 471.1,198.9 495.2,212.8 519.3,198.9" fill="#2e8b57" opacity="0.4" stroke="#17202a" stroke-width="2" />
+<circle cx="380.0" cy="185.0" r="6" fill="#17202a" />
+<circle cx="495.2" cy="185.0" r="6" fill="#17202a" />
+<text class="label" x="332" y="146">Z2 cell</text>
+<text class="label" x="510" y="146">hex cell</text>
+<text class="small" x="48" y="334">Voronoi cells describe nearest-lattice-point decisions.</text>
+</svg>

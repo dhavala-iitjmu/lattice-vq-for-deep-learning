@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#17202a" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+    .axis { stroke: #5d6d7e; stroke-width: 1.5; }
+    .grid { stroke: #d6dbdf; stroke-width: 1; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Scaling does not make the lattice finite</text>
+<line class="axis" x1="74" y1="178" x2="690" y2="178" marker-end="url(#arrow)" />
+<circle cx="92" cy="178" r="7" fill="#2e8b57" />
+<text class="small" text-anchor="middle" x="92" y="206">(0,0,0,0)</text>
+<circle cx="184" cy="178" r="7" fill="#2e8b57" />
+<text class="small" text-anchor="middle" x="184" y="206">(1,0,0,0)</text>
+<circle cx="276" cy="178" r="7" fill="#2e8b57" />
+<text class="small" text-anchor="middle" x="276" y="206">(2,0,0,0)</text>
+<circle cx="368" cy="178" r="7" fill="#2e8b57" />
+<text class="small" text-anchor="middle" x="368" y="206">(3,0,0,0)</text>
+<circle cx="460" cy="178" r="7" fill="#2e8b57" />
+<text class="small" text-anchor="middle" x="460" y="206">(4,0,0,0)</text>
+<circle cx="552" cy="178" r="7" fill="#2e8b57" />
+<text class="small" text-anchor="middle" x="552" y="206">(5,0,0,0)</text>
+<text class="title" text-anchor="middle" x="644" y="184">...</text>
+<rect x="92" y="74" width="460" height="42" rx="7" fill="#2f6f9f" opacity="0.12" stroke="#2f6f9f" />
+<text class="label" text-anchor="middle" x="322" y="101">beta changes spacing, but the ray still continues forever</text>
+<text class="small" x="64" y="334">A finite bit rate requires a finite set of representatives, introduced in Chapter 9.</text>
+</svg>

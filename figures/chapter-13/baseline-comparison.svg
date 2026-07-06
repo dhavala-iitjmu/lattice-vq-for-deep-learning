@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17202a; }
+    .title { font-size: 20px; font-weight: 700; }
+    .label { font-size: 13px; }
+    .small { font-size: 12px; fill: #566573; }
+  </style>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff" />
+<text class="title" x="48" y="32">Matched 4-bit comparison</text>
+<rect x="190" y="120.7" width="120" height="165.3" fill="#d9822b" opacity="0.85" />
+<text class="label" text-anchor="middle" x="250" y="312">HNLQ</text>
+<text class="small" text-anchor="middle" x="250" y="108.7">0.2610</text>
+<rect x="410" y="234.7" width="120" height="51.3" fill="#2e8b57" opacity="0.85" />
+<text class="label" text-anchor="middle" x="470" y="312">INT4</text>
+<text class="small" text-anchor="middle" x="470" y="222.7">0.0810</text>
+<text class="small" x="64" y="334">Weight MSE is near parity; output MSE still favors INT4. Both are reported.</text>
+</svg>
